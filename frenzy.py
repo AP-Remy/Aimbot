@@ -30,7 +30,7 @@ def stop():
 keyboard.add_hotkey("x", toggle)
 keyboard.add_hotkey("c", stop)
 
-def get_targets(mask, min_area=5000, single_target_area=20000):
+def get_targets(mask, min_area=50000, single_target_area=20000):
     kernel = np.ones((15, 15), np.uint8)
     closed = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
 
@@ -92,7 +92,7 @@ def main():
                             close_target = t
                     move_smooth(close_target[0]-1920//2 , close_target[1]-1080//2 )
                     input.click()
-                    time.sleep(0.03)
+                    time.sleep(0.01)
                     targets=[]
                     img = np.array(0)
                 else:
