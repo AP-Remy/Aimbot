@@ -11,3 +11,5 @@ Le score maximum obtenu sur le mode *Tile Frenzy* est de **272** (soit environ 9
 ## Démo en vidéo (level = 3)
 
 [Voir la vidéo de démonstration sur Medal.tv](https://medal.tv/games/screen-capture/clips/n9sFhE1GTzW5OQqpE?invite=cr-MSxza0MsMjA5OTUzODMy)
+
+Le script small.py est quant à lui spécialiste de la précision sur de petites cibles

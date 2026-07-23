@@ -52,6 +52,7 @@ def get_targets(mask, min_area=50000, single_target_area=20000):
         else:
                 cx = x + w // 2  + random.choice([-60,60])
                 cy = y + h // 2  + random.choice([-60,60])
+                cy=0
                 targets.append((cx, cy))
 
     return targets
